@@ -6,11 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 
 public class WrinklesActivity extends AppCompatActivity {
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_wrinkles);
-    }
 
     public void mOnClose(View v){
         //데이터 전달하기
@@ -22,4 +17,9 @@ public class WrinklesActivity extends AppCompatActivity {
         finish();
     }
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_wrinkles);
+    }
 }

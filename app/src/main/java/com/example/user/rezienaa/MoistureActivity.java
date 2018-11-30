@@ -6,12 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
+
 public class MoistureActivity extends AppCompatActivity {
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_moisture);
-    }
 
     public void mOnClose(View v){
         //데이터 전달하기
@@ -23,4 +19,9 @@ public class MoistureActivity extends AppCompatActivity {
         finish();
     }
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_moisture);
+    }
 }

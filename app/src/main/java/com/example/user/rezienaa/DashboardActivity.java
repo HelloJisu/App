@@ -1,22 +1,28 @@
 package com.example.user.rezienaa;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 
 public class DashboardActivity extends AppCompatActivity {
-    LinearLayout moisture, wrinkles, skin_type, toolbar;
+
+    LinearLayout moisture, wrinkles, toolbar;
+    RelativeLayout skin_type;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
+
         // 값 받아오기
         moisture = (LinearLayout)findViewById(R.id.moisture);
         wrinkles = (LinearLayout)findViewById(R.id.wrinkles);
-        skin_type = (LinearLayout)findViewById(R.id.skin_type);
+        skin_type = (RelativeLayout)findViewById(R.id.skin_type);
         toolbar = (LinearLayout)findViewById(R.id.toolbar);
+
         //  OnClickListener
         View.OnClickListener onClickListener = new View.OnClickListener() {
             Intent intent;
@@ -35,6 +41,7 @@ public class DashboardActivity extends AppCompatActivity {
                     case R.id.toolbar:
                         intent = new Intent(getApplicationContext(), MainActivity.class);
                         break;
+
                 }
                 startActivity(intent);
                 if (v.getId()==R.id.toolbar) {
@@ -43,6 +50,7 @@ public class DashboardActivity extends AppCompatActivity {
                 }
             }
         };
+
         moisture.setOnClickListener(onClickListener);
         wrinkles.setOnClickListener(onClickListener);
         skin_type.setOnClickListener(onClickListener);

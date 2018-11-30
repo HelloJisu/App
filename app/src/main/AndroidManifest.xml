@@ -35,6 +35,10 @@
 
         <activity android:name=".DashboardActivity"></activity>
 
+        <activity
+            android:name="com.github.dragger.BaseActivity"
+            android:theme="@style/YourTheme"/>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

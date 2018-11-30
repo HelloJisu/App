@@ -33,11 +33,13 @@
             android:layout_marginTop="5dp"
             android:layout_marginEnd="7dp"
             android:layout_weight="1"
+            android:padding="10dp"
             android:onClick="mOnClose"
             android:background="@android:color/transparent"
-            app:srcCompat="@android:drawable/ic_delete"
+            app:srcCompat="@drawable/close"
             android:layout_alignParentRight="true"
             android:layout_marginRight="7dp"
             tools:ignore="OnClick" />
+
     </RelativeLayout>
 </android.widget.RelativeLayout>
