@@ -452,49 +452,49 @@ public class TreatActivity extends AppCompatActivity {
                             }
                             if (count == 2) {
                                 ctlani15.stop();
-                                c_tleft_line15.setBackgroundResource(R.drawable.line123finish);
+                                c_tleft_line15.setBackgroundResource(R.drawable.line321finish);
                                 c_tleft_line16.setBackgroundResource(R.drawable.cheekleftanim1);
                                 ctlani16 = (AnimationDrawable) c_tleft_line16.getBackground();
                                 ctlani16.start();
                             }
                             if (count == 3) {
                                 ctlani16.stop();
-                                c_tleft_line16.setBackgroundResource(R.drawable.line123finish);
+                                c_tleft_line16.setBackgroundResource(R.drawable.line321finish);
                                 c_tleft_line17.setBackgroundResource(R.drawable.cheekleftanim1);
                                 ctlani17 = (AnimationDrawable) c_tleft_line17.getBackground();
                                 ctlani17.start();
                             }
                             if (count == 4) {
                                 ctlani17.stop();
-                                c_tleft_line17.setBackgroundResource(R.drawable.line123finish);
+                                c_tleft_line17.setBackgroundResource(R.drawable.line321finish);
                                 c_tleft_line18.setBackgroundResource(R.drawable.cheekleftanim1);
                                 ctlani18 = (AnimationDrawable) c_tleft_line18.getBackground();
                                 ctlani18.start();
                             }
                             if (count == 5) {
                                 ctlani18.stop();
-                                c_tleft_line18.setBackgroundResource(R.drawable.line123finish);
+                                c_tleft_line18.setBackgroundResource(R.drawable.line321finish);
                                 c_tleft_line19.setBackgroundResource(R.drawable.cheekleftanim1);
                                 ctlani19 = (AnimationDrawable) c_tleft_line19.getBackground();
                                 ctlani19.start();
                             }
                             if (count == 6) {
                                 ctlani19.stop();
-                                c_tleft_line19.setBackgroundResource(R.drawable.line123finish);
+                                c_tleft_line19.setBackgroundResource(R.drawable.line321finish);
                                 c_tleft_line20.setBackgroundResource(R.drawable.cheekleftanim1);
                                 ctlani20 = (AnimationDrawable) c_tleft_line20.getBackground();
                                 ctlani20.start();
                             }
                             if (count == 7) {
                                 ctlani20.stop();
-                                c_tleft_line20.setBackgroundResource(R.drawable.line123finish);
+                                c_tleft_line20.setBackgroundResource(R.drawable.line321finish);
                                 c_tleft_line21.setBackgroundResource(R.drawable.cheekleftanim1);
                                 ctlani21 = (AnimationDrawable) c_tleft_line21.getBackground();
                                 ctlani21.start();
                             }
                             if (count == 8) {
                                 ctlani21.stop();
-                                c_tleft_line21.setBackgroundResource(R.drawable.line123finish);
+                                c_tleft_line21.setBackgroundResource(R.drawable.line321finish);
                                 c_tleft_line22.setBackgroundResource(R.drawable.cheekleftanim1);
                                 ctlani22 = (AnimationDrawable) c_tleft_line22.getBackground();
                                 ctlani22.start();
@@ -502,7 +502,7 @@ public class TreatActivity extends AppCompatActivity {
                             if (count == 9) {
                                 ctlani22.stop();
                                 c_tleft_line22.setBackgroundResource(R.drawable.line123finish);
-                                c_tleft_line1.setBackgroundResource(R.drawable.cheekleftanim1);
+                                c_tleft_line1.setBackgroundResource(R.drawable.cheekleftanim2);
                                 ctlani1 = (AnimationDrawable) c_tleft_line1.getBackground();
                                 ctlani1.start();
                             }
