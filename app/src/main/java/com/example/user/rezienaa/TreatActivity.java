@@ -24,7 +24,7 @@ public class TreatActivity extends AppCompatActivity {
 
     ImageView forehead, underleft, underright, eyeleft, eyeright, cheekl, cheekr, mouth, back;
     LinearLayout component;
-    TextView component_txt;
+    TextView component_txt,u_tright_txt1,u_tright_txt2,u_tleft_txt1,u_tleft_txt2,c_tright_txt1,c_tright_txt2,c_tleft_txt1,c_tleft_txt2;
     RelativeLayout treatback, underright_layout, underleft_layout,treat_default,cheekright_layout,cheekleft_layout;
     int cheekcount=0, undercount=0, foreheadcount=0, level=0, timer_sec, count=0;
     ImageView u_tright_line1,u_tright_line2,u_tright_line3,u_tright_line4,u_tright_line5,u_tright_line6,
@@ -158,6 +158,10 @@ public class TreatActivity extends AppCompatActivity {
                                 u_tright_line6.setBackgroundResource(R.drawable.line1color);
                                 u_tright_line7.setBackgroundResource(R.drawable.line1color);
                                 component_txt.setText("GOOD JOB");
+                                u_tright_txt1.setText("DONE");
+                                u_tright_txt1.setTextColor(Integer.parseInt("#9E0958"));
+                                u_tright_txt2.setText("DONE");
+                                u_tright_txt2.setTextColor(Integer.parseInt("#9E0958"));
                             }
                         }
                         if(part=="underleft"){
@@ -264,6 +268,10 @@ public class TreatActivity extends AppCompatActivity {
                                 u_tleft_line6.setBackgroundResource(R.drawable.line5color);
                                 u_tleft_line7.setBackgroundResource(R.drawable.line5finish);
                                 component_txt.setText("GOOD JOB");
+                                u_tleft_txt1.setText("DONE");
+                                u_tleft_txt1.setTextColor(Integer.parseInt("#9E0958"));
+                                u_tleft_txt2.setText("DONE");
+                                u_tleft_txt2.setTextColor(Integer.parseInt("#9E0958"));
                             }
                         }
                         if(part=="cheekright") {
@@ -442,6 +450,10 @@ public class TreatActivity extends AppCompatActivity {
                                 c_tright_line13.setBackgroundResource(R.drawable.line1color);
                                 c_tright_line14.setBackgroundResource(R.drawable.line1color);
                                 component_txt.setText("GOOD JOB");
+                                c_tright_txt1.setText("DONE");
+                                c_tright_txt1.setTextColor(Integer.parseInt("#9E0958"));
+                                c_tright_txt2.setText("DONE");
+                                c_tright_txt2.setTextColor(Integer.parseInt("#9E0958"));
                             }
                         }
                         if(part=="cheekleft") {
@@ -620,6 +632,10 @@ public class TreatActivity extends AppCompatActivity {
                                 c_tleft_line13.setBackgroundResource(R.drawable.line5color);
                                 c_tleft_line14.setBackgroundResource(R.drawable.line5color);
                                 component_txt.setText("GOOD JOB");
+                                c_tleft_txt1.setText("DONE");
+                                c_tleft_txt1.setTextColor(Integer.parseInt("#9E0958"));
+                                c_tleft_txt2.setText("DONE");
+                                c_tleft_txt2.setTextColor(Integer.parseInt("#9E0958"));
                             }
                         }
                     }
@@ -729,6 +745,14 @@ public class TreatActivity extends AppCompatActivity {
         c_tleft_line20=(ImageView)findViewById(R.id.c_tleft_line20);
         c_tleft_line21=(ImageView)findViewById(R.id.c_tleft_line21);
         c_tleft_line22=(ImageView)findViewById(R.id.c_tleft_line22);
+        u_tright_txt1=(TextView)findViewById(R.id.u_tright_txt1);
+        u_tright_txt2=(TextView)findViewById(R.id.u_tright_txt2);
+        u_tleft_txt1=(TextView)findViewById(R.id.u_tleft_txt1);
+        u_tleft_txt2=(TextView)findViewById(R.id.u_tleft_txt2);
+        c_tright_txt1=(TextView)findViewById(R.id.c_tright_txt1);
+        c_tright_txt2=(TextView)findViewById(R.id.c_tright_txt2);
+        c_tleft_txt1=(TextView)findViewById(R.id.c_tleft_txt1);
+        c_tleft_txt2=(TextView)findViewById(R.id.c_tleft_txt2);
 
         underright_layout.setVisibility(View.INVISIBLE);
         underleft_layout.setVisibility(View.INVISIBLE);

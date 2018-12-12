@@ -391,10 +391,38 @@
             android:layout_marginTop="106dp"
             android:background="@drawable/underrightanim1" />
 
+        <TextView
+            android:id="@+id/u_tright_txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/u_tright_back"
+            android:layout_alignStart="@+id/u_tright_back"
+            android:layout_alignLeft="@+id/u_tright_back"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="0dp"
+            android:text="6 left"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/u_tright_txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/u_tright_back"
+            android:layout_alignStart="@+id/u_tright_back"
+            android:layout_alignLeft="@+id/u_tright_back"
+            android:layout_marginStart="216dp"
+            android:layout_marginLeft="216dp"
+            android:layout_marginTop="-10dp"
+            android:text="7 left"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
     </RelativeLayout>
 
     <!--underleft-->
-     <RelativeLayout
+      <RelativeLayout
          android:id="@+id/u_tleft_layout"
          android:layout_width="match_parent"
          android:layout_height="match_parent">
@@ -566,10 +594,38 @@
             android:layout_marginEnd="62dp"
             android:layout_marginRight="62dp"
             android:background="@drawable/underleftanim1" />
+
+         <TextView
+             android:id="@+id/u_tleft_txt1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/u_tleft_back"
+             android:layout_alignEnd="@+id/u_tleft_back"
+             android:layout_alignRight="@+id/u_tleft_back"
+             android:layout_marginTop="0dp"
+             android:layout_marginEnd="80dp"
+             android:layout_marginRight="80dp"
+             android:text="6 left"
+             android:textColor="#FFFFFF"
+             android:textStyle="bold" />
+
+         <TextView
+             android:id="@+id/u_tleft_txt2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/u_tleft_back"
+             android:layout_alignEnd="@+id/u_tleft_back"
+             android:layout_alignRight="@+id/u_tleft_back"
+             android:layout_marginTop="-10dp"
+             android:layout_marginEnd="216dp"
+             android:layout_marginRight="216dp"
+             android:text="7 left"
+             android:textColor="#FFFFFF"
+             android:textStyle="bold" />
     </RelativeLayout>
 
     <!--cheekright-->
-    <RelativeLayout
+      <RelativeLayout
         android:id="@+id/c_tright_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -849,10 +905,38 @@
             android:layout_marginLeft="48dp"
             android:layout_marginTop="169dp"
             android:background="@drawable/cheekrightanim1" />
+
+         <TextView
+             android:id="@+id/c_tright_txt1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/c_tright_back"
+             android:layout_alignStart="@+id/c_tright_back"
+             android:layout_alignLeft="@+id/c_tright_back"
+             android:layout_marginStart="58dp"
+             android:layout_marginLeft="58dp"
+             android:layout_marginTop="-199dp"
+             android:text="8 left"
+             android:textColor="#FFFFFF"
+             android:textStyle="bold" />
+
+         <TextView
+             android:id="@+id/c_tright_txt2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/c_tright_back"
+             android:layout_alignStart="@+id/c_tright_back"
+             android:layout_alignLeft="@+id/c_tright_back"
+             android:layout_marginStart="68dp"
+             android:layout_marginLeft="68dp"
+             android:layout_marginTop="-30dp"
+             android:text="13 left"
+             android:textColor="#FFFFFF"
+             android:textStyle="bold" />
     </RelativeLayout>
 
     <!--cheekleft-->
-     <RelativeLayout
+      <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/c_tleft_layout">
@@ -1132,6 +1216,34 @@
             android:layout_marginEnd="48dp"
             android:layout_marginRight="48dp"
             android:background="@drawable/cheekleftanim1" />
+
+          <TextView
+              android:id="@+id/c_tleft_txt1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/c_tleft_back"
+              android:layout_alignEnd="@+id/c_tleft_back"
+              android:layout_alignRight="@+id/c_tleft_back"
+              android:layout_marginTop="-199dp"
+              android:layout_marginEnd="58dp"
+              android:layout_marginRight="58dp"
+              android:text="8 left"
+              android:textColor="#FFFFFF"
+              android:textStyle="bold" />
+
+          <TextView
+              android:id="@+id/c_tleft_txt2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/c_tleft_back"
+              android:layout_alignEnd="@+id/c_tleft_back"
+              android:layout_alignRight="@+id/c_tleft_back"
+              android:layout_marginTop="-30dp"
+              android:layout_marginEnd="63dp"
+              android:layout_marginRight="63dp"
+              android:text="13 left"
+              android:textColor="#FFFFFF"
+              android:textStyle="bold" />
 
     </RelativeLayout>
 
