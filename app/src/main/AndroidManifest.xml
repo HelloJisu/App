@@ -21,6 +21,7 @@
         <activity
             android:name=".Card"
             android:theme="@style/NoTitleDialog" />
+        <activity android:name=".cheek"/>
         <activity
         android:name=".MoistureActivity"
         android:theme="@style/NoTitleDialog" />
@@ -32,6 +33,9 @@
         <activity
             android:name=".SkintypeActivity"
             android:theme="@style/NoTitleDialog" />
+
+        <activity
+            android:name=".TreatActivity" />
 
         <activity android:name=".DashboardActivity"></activity>
 

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "725316267748",
+    "firebase_url": "https://reziena-3f6e7.firebaseio.com",
+    "project_id": "reziena-3f6e7",
+    "storage_bucket": "reziena-3f6e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725316267748:android:dc1916cb6b819e54",
+        "android_client_info": {
+          "package_name": "com.example.user.rezienaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725316267748-21hc2saqjgshpsqeiafipmm0v7hoje4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMugoy6uRiRlR8v52PH3IYdtHoYGG3Dj0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

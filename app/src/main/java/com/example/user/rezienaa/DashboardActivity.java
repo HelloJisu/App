@@ -21,7 +21,6 @@ public class DashboardActivity extends AppCompatActivity {
         moisture = (LinearLayout)findViewById(R.id.moisture);
         wrinkles = (LinearLayout)findViewById(R.id.wrinkles);
         skin_type = (RelativeLayout)findViewById(R.id.skin_type);
-        toolbar = (LinearLayout)findViewById(R.id.toolbar);
 
         //  OnClickListener
         View.OnClickListener onClickListener = new View.OnClickListener() {
